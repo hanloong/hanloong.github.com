@@ -73,11 +73,8 @@ MySQL | Postgres
 And to keep up on the news I usually listen to podcasts on my commute. Here are my go to's at the moment.
 
  - [Ruby Rogues](http://rubyrogues.com/)
- - 
  - [Giant Robots Smashing Into Other Giant Robots](http://robots.thoughtbot.com/)
- - 
  - [Ruby 5](http://ruby5.envylabs.com/)
- - 
  - [The Change Log](http://thechangelog.com/)
 
 I will attempt to update this post as I remember tools or finish courses..
