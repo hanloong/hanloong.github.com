@@ -7,13 +7,6 @@ In the past few months I have switched jobs, languages (programming that is), ve
 
 So with this switch I have had to learn a lot of new stuff. I mostly used the internet for learning material and wanted to share what I used and let you know what I found helpful. Personally I'm not great at reading technical books so the majority of these are tools that have some interactive element.
 
-| Before  | After      |
-| ------- | ---------- |
-| PHP     | Ruby/Rails |
-| CVS     | Git/Github |
-| Sublime | Vim/Tmux   |
-| MySQL   | Postgres   |
-
 ### Free Tools
  - #### [Try Ruby](http://tryruby.org)
  
