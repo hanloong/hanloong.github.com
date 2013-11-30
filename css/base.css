@@ -21,19 +21,24 @@ a {
   .sidebar .avatar {
     padding: 0;
     margin-left: 2px;
-    border-radius: 5px; }
+    border-radius: 75px; }
   .sidebar .name {
     text-transform: uppercase;
     margin: 10px 0 20px 0; }
     .sidebar .name #fname {
       padding-left: 1px;
-      font-size: 23px;
-      letter-spacing: 5px;
+      font-size: 28px;
+      letter-spacing: 7px;
+      color: black; }
+    .sidebar .name #mname {
+      padding-left: 1px;
+      font-size: 16px;
+      letter-spacing: 4px;
       color: black; }
     .sidebar .name #lname {
-      font-size: 17px;
+      font-size: 19px;
       font-weight: bold;
-      letter-spacing: 1px;
+      letter-spacing: 3px;
       color: black; }
   .sidebar .meta a {
     margin-left: 0px;

@@ -3,7 +3,9 @@ permalink: /posts/:title
 rdiscount:
   extensions: [smart]
 
-name: Han Loong
+name: Han Loong Liauw
+first_name: Han Loong
+last_name: Liauw
 url: http://hanloongliauw.com
 description: A fantastic blog that coud be fantastic.
 twitter: hanloongliauw
