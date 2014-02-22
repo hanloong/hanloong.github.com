@@ -1,0 +1,43 @@
+---
+layout: post
+title: Github 2 factor auth
+category: postsA
+---
+Slowly but surely I have been moving all my main work related apps over to using 2 factor authentication. This was something I was pretty slow to adpot as it seemed like a real waste of time to check my phone everytime I log into google apps. However I bit the bullet and made the switch, mostly. The last one I held out for was GitHub, which as a developer for a company that uses github is the place where security was most needed. I think my resistance was due to the fact that I access github in a few different ways. There is of course the Github.com website (which would be the same as using google apps or any other 2FA system) and there is the command line (not a big use of the desktop client).
+
+The CLI for git and github is where I do most of my github interaction and not being able to get that up and running would be a major pain. But I have also bitten the bullet and taken the leap and other random cliche and am now using it. It was actually pretty easy to setup so I wanted to share the instructions as the current github help files require you to jump around to find the solution.
+
+### My Setup
+ - MacOS
+ - SSH Authentication
+ - and thats it
+
+If you are using https git access github I think the steps are a little different and possibly simpler.
+
+### 1. Setup 2FA on GitHub
+
+There a great instuctions [here](https://help.github.com/articles/about-two-factor-authentication) but the basic steps are
+
+ - Visit you account page on github.com
+ - Scroll to the bottom and you should see a button to setup 2FA
+ - Follow the wizard
+
+### 2. Setup you CLI access
+
+Instead of using the second verification step to authenticate through SSH you will authenticate with github as if you were an API. But instead of passing the authentication token a a special header you will replace the password you previously used with a "Personal Token"
+
+[Here is the link](https://help.github.com/articles/creating-an-access-token-for-command-line-use) to the github help pages for creating a personal token.
+
+As this would usually be the mean editing interface into github you should probably be pretty liberal with granting access for this personal key.
+
+### 3. Reset local Authentication
+
+I used a password caching tool to prevent me from having to authenticate over and over to save time, however this means that I no longer enter my password so its a bit harder to change the credentials previously entered. So here was my quick cheat.
+
+ - Opened my global git config `git config --global -e`
+ - Removed the `[Github]` section of the config that specified my username
+ - Saved the file and exited
+ - Tried to perform a `git pull` from a private repo
+ - Entered my username when prompted
+ - Enetered the Personal Access Token for my password
+ - Celebrated with a little dance as everything now works
