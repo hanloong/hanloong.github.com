@@ -1,0 +1,47 @@
+# Introducing [ithaka.io](https://ithaka.io) hosted on ninefold
+
+[ithaka.io](https://ithaka.io) is an easy to use idea voting platform for businesses or private communities. It allows employees to get involved in the direction of a company by sharing ideas, providing feedback and voting for things the see as valuable.
+
+## Why?
+
+In the past I have worked for companies that had something similar and I found it a great way to bring a wide variety of knowledge into one place. It's ithaka's opinion that anyone with in the company can come up with the next great idea that could change their company, if not the world.
+
+However a suggestion box is only so useful and for people to want to share idea they need to get feedback and see progress. With ithaka everyone can vote for idea's they like, contribute to the discussion around an idea and see when a idea progresses through to delivery.
+
+Okay so some of you are probably saying just because an idea is popular doesn't been it should be actualised. Well you are correct, peoples support is important but not the only thing considered when a decision is made. Each idea in ithaka has something called influence, basically the owner of a project can rate an idea on factors like potential revenue, productivity, risk and workplace moral which are visible to everyone. These score are combined and used as a multiplier against the number of votes to produce an overal score for an idea. The idea's with the best scores are then shown in each project heping your business decide what to tackle next.
+
+## Where is it at?
+
+At this stage [ithaka](https://ithaka.io) is in a very early stage of development, the concepts listed above are all up and working but there is much on my todo list. So as its still a beta product everything is free. I want people to use it, break it and let me know how I can improve it.
+
+The future plan is to charge a fee based on team sizes but I think ithaka first needs to be validated as something worth while. So please check it out and let me know your thoughts.
+
+## Hosting
+
+So now that you know what it is, here is some of the how.
+
+Ithaka is a pretty standard **Rails** app so my first choice for hosting was of course **heroku**. I have worked for companies that were hosted on **heroku** and still have a few projects on development dyno's. However once I started getting into the nitty gritty of supporting a business application it started to get pretty expensive, quickly. And for a bootstrapped side project price is pretty important.
+
+### Why I left heroku
+
+So a single dev dyno is free but it goes to sleep if its not used which is not acceptable, so thats around $34 for a 2x dyno (still pretty cheap). Then add $9 for a non-dev postgres database (still okay). Oh ithaka definitely needs emailing and they should be handled out of band by DelayedJob or something similar, okay so thats another $34 for each worker (a bit more pricy). Finally this is a business app so everything should be over SSL, hmm thats $25 per month for an SSL endpoint, really? I'm not sure why hosting the SSL certificate should cost $25 a month when a dyno costs $34.
+
+The SSL was just a little too much to handle so I looked around and was seriously considering moving over to **Digital Ocean** but I have little faith in my sys admin abilities and I wawanted to keep focus on building the product and not the infrastructure (at least not yet).
+
+### Why I moved to ninefold
+
+Being a Sydney sider I was pretty familiar with ninefold but had never deployed anything with them. So it turns out for a thrifty person such as I it was possible to get everything I need always on, SSL, workers and database for about $35 if I used a single server. Which was all I needed as I didn't really have much/any of a customer base yet.
+
+So the price was definitely better but what about the everything else?
+
+So far I have found the speed to be comparable. Running it through [webpagetest.org](http://www.webpagetest.org) and [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/) mainly pointed out things I could needed to fix rather then my hosting provider, I also liked the fact that gzip was enabled by default for assets.
+
+Having SSH access in addition to a cli tool is also something I have enjoyed. And like **heroku**, **ninefold** offer a "experimental" **zero downtime deployment** fe
+
+### Now what I miss
+
+I have noticed its a little harder to integrate deploying to **ninefold** from some of the hosted continuous integration services that exist, this is something that heroku and engine yard seem to have for the time being.
+
+## Disclaimer
+
+After my first month on ninefold they offered
