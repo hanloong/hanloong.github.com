@@ -36,12 +36,18 @@ So the price was definitely better but what about the everything else?
 
 So far I have found the speed to be comparable. Running it through [webpagetest.org](http://www.webpagetest.org) and [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/) mainly pointed out things I could needed to fix rather then my hosting provider, I also liked the fact that gzip was enabled by default for assets.
 
-Having SSH access in addition to a cli tool is also something I have enjoyed. And like **heroku**, **ninefold** offer a "experimental" **zero downtime deployment** fe
+Having SSH access in addition to a cli tool is also something I have enjoyed. And like **heroku**, **ninefold** offer a "experimental" **zero downtime deployment** feature when you are lucky enough to have multiple app servers.
 
 ### Now what I miss
 
-I have noticed its a little harder to integrate deploying to **ninefold** from some of the hosted continuous integration services that exist, this is something that heroku and engine yard seem to have for the time being.
+I have noticed its a little harder to integrate deploying to **ninefold** from some of the hosted continuous integration services that exist, this is something that **heroku** and engine yard seem to have for the time being. While its just myself on this project its not an issue as I can run a deployment script locally but if the team grows it would be nice to have deployment integrated into a pull request type workflow back by a testing run.
+
+When I was testing **ninefold** I had ithaka on a single server (web + worker + db) which was worked well as a staging environment but I found that there was no upgrade path from a single server to a separate db + app and I found migrating a database from one app to the another to be a little more difficult then it should be. As there was only testing data on the staging server I ended up just blowing away the old system and building from scratch. However this is definitely something that needs improvement in my opinion.
+
+### Wrap Up
+
+
 
 ## Disclaimer
 
-After my first month on ninefold they offered
+After my first month on ninefold they kindly offered to assist with six months of free hosting, which should allow ithaka to handle a substaintial spike in traffic if I'm lucky enough to do so
