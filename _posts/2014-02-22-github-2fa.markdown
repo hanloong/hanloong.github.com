@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Github 2 factor auth
-category: postsA
+category: posts
 ---
 Slowly but surely I have been moving all my main work related apps over to using 2 factor authentication. This was something I was pretty slow to adpot as it seemed like a real waste of time to check my phone everytime I log into google apps. However I bit the bullet and made the switch, mostly. The last one I held out for was GitHub, which as a developer for a company that uses github is the place where security was most needed. I think my resistance was due to the fact that I access github in a few different ways. There is of course the Github.com website (which would be the same as using google apps or any other 2FA system) and there is the command line (not a big use of the desktop client).
 
