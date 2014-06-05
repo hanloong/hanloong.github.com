@@ -53,6 +53,14 @@ So there is a short introduction to my side project. I'm have created a blog spe
 
 Thanks
 
+## Links
+
+- [Ithaka](https://ithaka.io)
+- [Ithaka's Blog](http://blog.ithaka.io)
+- [@ithakaio](https://twitter.com/ithakaio)
+- [Ninefold](http://www.ninefold.com)
+- [Heroku](http://www.heroku.com) 
+
 ## Disclaimer
 
 After my first month on ninefold they kindly offered to assist with six months of free hosting, which should allow [Ithaka](https://ithaka.io) to handle a substaintial spike in traffic if I ever get that lucky..  
