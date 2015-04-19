@@ -564,6 +564,10 @@ body.cover-photo {
   margin-top: 10px;
 }
 
+.cover-photo .profile h3 {
+  opacity: .8;
+}
+
 .cover-photo .profile a {
   opacity: .8;
   font-size: .8em;
@@ -577,6 +581,10 @@ body.cover-photo {
 .cover-photo .profile ul.links {
   list-style: none;
   padding-left: 10px;
+}
+.cover-photo .profile ul li{
+  width: 50%;
+  float: left;
 }
 
 .cover-photo .profile a:hover,
