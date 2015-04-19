@@ -141,19 +141,19 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Style and "hide" the sidebar */
 .sidebar {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: -14rem;
-  width: 14rem;
-  visibility: hidden;
-  overflow-y: auto;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  font-size: .875rem; /* 15px */
-  color: rgba(255,255,255,.6);
-  background-color: #202020;
-  -webkit-transition: all .3s ease-in-out;
-          transition: all .3s ease-in-out;
+position: fixed;
+top: 0;
+bottom: 0;
+left: -14rem;
+width: 14rem;
+visibility: hidden;
+overflow-y: auto;
+font-family: "PT Sans", Helvetica, Arial, sans-serif;
+font-size: .875rem; /* 15px */
+color: rgba(255,255,255,.6);
+background-color: #202020;
+-webkit-transition: all .3s ease-in-out;
+transition: all .3s ease-in-out;
 }
 @media (min-width: 30rem) {
   .sidebar {
@@ -228,8 +228,8 @@ a.sidebar-nav-item:focus {
 
   /* Make the border inside the box */
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .sidebar-toggle:active,
@@ -268,13 +268,13 @@ a.sidebar-nav-item:focus {
 .sidebar,
 .sidebar-toggle {
   -webkit-backface-visibility: hidden;
-      -ms-backface-visibility: hidden;
-          backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 .wrap,
 .sidebar-toggle {
   -webkit-transition: -webkit-transform .3s ease-in-out;
-          transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
 }
 
 #sidebar-checkbox:checked + .sidebar {
@@ -284,8 +284,8 @@ a.sidebar-nav-item:focus {
 #sidebar-checkbox:checked ~ .wrap,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
   -webkit-transform: translateX(14rem);
-      -ms-transform: translateX(14rem);
-          transform: translateX(14rem);
+  -ms-transform: translateX(14rem);
+  transform: translateX(14rem);
 }
 
 
@@ -418,8 +418,8 @@ a.pagination-item:hover {
 .layout-reverse #sidebar-checkbox:checked ~ .wrap,
 .layout-reverse #sidebar-checkbox:checked ~ .sidebar-toggle {
   -webkit-transform: translateX(-14rem);
-      -ms-transform: translateX(-14rem);
-          transform: translateX(-14rem);
+  -ms-transform: translateX(-14rem);
+  transform: translateX(-14rem);
 }
 
 
@@ -525,3 +525,64 @@ a.pagination-item:hover {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+
+/* Homepage Styles */
+
+body.cover-photo {
+  background: url('/public/images/background.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cover-photo .profile {
+  float: right;
+  background: #000;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  margin: 20px 20px;
+  padding: 10px 20px;
+}
+
+.cover-photo .profile h1,
+.cover-photo .profile h2,
+.cover-photo .profile h3,
+.cover-photo .profile a {
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.cover-photo .profile h1 {
+  font-size: 3em;
+}
+
+.cover-photo .profile h1,
+.cover-photo .profile h3,
+.cover-photo .profile h2 {
+  margin-top: 10px;
+}
+
+.cover-photo .profile a {
+  opacity: .8;
+  font-size: .8em;
+}
+
+.cover-photo .profile a i {
+  font-size: 1.2em;
+  width: 35px;
+}
+
+.cover-photo .profile ul.links {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.cover-photo .profile a:hover,
+.cover-photo .profile a:focus {
+  color: #fff;
+  text-decoration: none;
+  opacity: 1;
+}
+

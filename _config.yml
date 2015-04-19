@@ -16,13 +16,35 @@ author:
   url:            https://twitter.com/hanloongliauw
 
 paginate:         5
+paginate_path:    "/blog/page:num/"
 
 # Custom vars
 version:          1.0.0
 
 github:
+  name:           'Github'
   repo:           https://github.com/hanloong/hanloong.github.com
   profile:        https://github.com/hanloong
+
+twitter:
+  name:           'Twitter'
+  link:           https://twitter.com/hanloongliauw
+
+instagram:
+  name:           'Instagram'
+  link:           https://instagram.com/hanloong
+
+stackoverflow:
+  name:           'Stack Overflow'
+  link:           http://stackoverflow.com/users/2663005/han-loong-liauw
+
+blog:
+  name:           'Blog Posts'
+  link:           http://hanloongliauw.com/blog
+
+resume:
+  name:           'Résumé'
+  link:           http://hanloongliauw.com/resume/
 
 sass:
   sass_dir:       _sass
