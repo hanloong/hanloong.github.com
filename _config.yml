@@ -9,7 +9,7 @@ permalink:        pretty
 title:            Han Loong Liauw
 tagline:          'because the world needs another programming blog'
 description:      "thoughts and experiences on programming and related topics. <p>Ruby, Rails, PHP, coffeescrpt, javascript, scala</p>"
-url:              http://hanloongliauw.com
+url:              http://hanloong.me
 
 author:
   name:           'Han Loong Liauw'
@@ -40,11 +40,11 @@ stackoverflow:
 
 blog:
   name:           'Blog Posts'
-  link:           http://hanloongliauw.com/blog
+  link:           http://hanloong.me/blog
 
 resume:
   name:           'Résumé'
-  link:           http://hanloongliauw.com/resume/
+  link:           http://hanloong.me/resume/
 
 sass:
   sass_dir:       _sass
