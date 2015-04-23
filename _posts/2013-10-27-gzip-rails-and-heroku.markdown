@@ -42,7 +42,7 @@ Let me know if you have used this gem or similar ones and what results you have 
 - [github.com/romanbsd/heroku-deflater](https://github.com/romanbsd/heroku-deflater)
 - [webpagetest.org](http://webpagetest.org)
 - [Measuring Ruby](http://www.confreaks.com/videos/2668-gogaruco2013-measuring-ruby) A great talk about performance in rails (_although mostly on the server side_)
-- [@hanloongliauw](twitter.com/hanloong)
+- [@hanliauw](twitter.com/hanliauw)
 - [@hanloong on GitHub](http://github.com/hanloong)
 
 those last two are maybe not so useful
