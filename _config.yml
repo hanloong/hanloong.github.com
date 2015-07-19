@@ -40,11 +40,11 @@ stackoverflow:
 
 blog:
   name:           'Blog Posts'
-  link:           http://hanloong.me/blog
+  link:           '/blog'
 
 resume:
   name:           'Résumé'
-  link:           http://hanloong.me/resume/
+  link:           '/resume'
 
 sass:
   sass_dir:       _sass
