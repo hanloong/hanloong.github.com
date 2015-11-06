@@ -30,7 +30,8 @@ title: Résumé
 - Podcasts: both tech and non-tech
 
 ## Work History
-### [Ithaka](https://ithaka.io) - Side project (Sydney, Australia)
+### [Ithaka](http://ithaka.herokuapp.com) - Side project (Sydney, Australia)
+##### [Github source](https://github.com/hanloong/ithaka)
 Ithaka is an ideation platform for small to medium businesses. It helps companies collect organise and qualify ideas and suggestions from employees. The main differentiation to other “ideation platforms” would be the influence system that measures ideas on different factors which then influences the power of each vote. The hope is that the combination of popularity and domain expertise will help uncover the most valuable ideas.
 This side project allowed me to test out patterns and technologies that interested me while making sure the work I was doing had a real use case. It uses
 - Ruby on Rails
