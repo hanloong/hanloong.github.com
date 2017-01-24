@@ -4,23 +4,11 @@ title: Résumé
 ---
 
 ## Technologies I work with
-- Ruby/Rails
-- RSpec
-- Backbone, ReactJs
-- Sass
-- PostgreSQL
-- Ansible
-- AWS
-- PHP
-- Git/Github
-
-## Interested In/Currently Learning
-- EmberJs
-- ReactJs
-- Haskell
-- Rust
-- Clojure
-- Swift
+| **Languages** | Ruby, Javascript (es2015), Elixir, PHP, Scala, Python |
+| **Frameworks** | Rails, Sinatra, React, Flux, Ember, Backbone |
+| **Databases** | Postgres, MySQL, Redis, Elasticsearch, MongoDB |
+| **Testing** | Rspec, MiniTest, Jasmin, ExUnit |
+| **Tools** | Git, Github, Vim |
 
 ## Other Interests
 - Remote work culture
@@ -30,22 +18,38 @@ title: Résumé
 - Podcasts: both tech and non-tech
 
 ## Work History
-### [Ithaka](http://ithaka.herokuapp.com) - Side project (Sydney, Australia)
-##### [Github source](https://github.com/hanloong/ithaka)
-Ithaka is an ideation platform for small to medium businesses. It helps companies collect organise and qualify ideas and suggestions from employees. The main differentiation to other “ideation platforms” would be the influence system that measures ideas on different factors which then influences the power of each vote. The hope is that the combination of popularity and domain expertise will help uncover the most valuable ideas.
-This side project allowed me to test out patterns and technologies that interested me while making sure the work I was doing had a real use case. It uses
-- Ruby on Rails
-- Postgres
-- ReactJS - with server side rendering
-- Stripe Payments
-- Google Apps API
-- Sass
-- Coffeescript
+### [Flatmates.com.au](https://flatmates.com.au) - (Sydney, Australia)
+##### Software Engineer (2016-Current)
 
-### [yourtutor.com.au](http://yourtutor.com.au) (Sydney, Australia)
-##### Software Engineer (2013-Current)
+Flatmates.com.au is Australia’s No.1 share accommodation website. Based in Sydney, Australia, Flatmates.com.au allows people to list their spare rooms, find accommodation or team up with others to start a share house.
+
+I worked as a “full-stack” developer in a small agile team doing both maintenance and developing new features. The technologies used at flatmates are.
+
+ - Ruby on Rails
+ - Ruby 2.4
+ - OpsWorks
+ - Postgres, Elasticsearch, Redis
+ - Sidekiq
+ - ReactJS, Flux
+ - ActiveMerchant
+ - Google API’s (maps/places)
+ - Sass, neat and bourbon
+ - Rspec
+
+#### Highlights
+
+ - Moved our infrastructure to a newer version of OpsWorks (AWS) that included a newer version of chef using community and custom recipies. During this move I was able to also configure continuous deployment from our CI system with zero downtime and switch the webserver from unicorn to puma.
+ - Built a monitoring tool that posted into our slack channel when the sidekiq queue became too large.
+ - Refactored a large section of our Search and Locations code for performance, reliability and testability.
+ - Built an emailing system to help members advertising properties find relevant matches. Our email system is our largest source of revenue and this became the 3rd largest source.
+ - Rebuilt our Search by Maps tool to be fully React using dynamic SVG’s for markers.
+ - Swapped out the Google Places Autocomplete with our own Autocomplete built in React and Flux using Elastic Search’s suggest index for fast fuzzy matching.
+
+### [YourTutor.com.au](http://yourtutor.com.au) (Sydney, Australia)
+##### Software Engineer (2013-2016)
 
 YourTutor provides an on-demand online tutoring tool connecting qualifieds tutors with primary school, high school and university students in Australia.
+
 The engineering team comprises a team of full stack engineers (mostly remote), a designer, product manager and team lead. The team followed an agile-ish methodology with two weeks spreets with people rotating into different roles each sprint to help share knowledge and keep things interesting. As the team had no dedicated Dev Ops or Sys Admin roles developers need to be involved in managing servers and deploying code.
 
 - Ruby On Rails
@@ -90,5 +94,3 @@ As a Production Software Engineer at Squiz I was manly responsible for the devel
 ##### Bachelor in Computer Science (Applied Science)
 ##### Completed 2006
 Degree Focus: Object-Oriented programming, Distributed Systems, Artificial Intelligence and System Administration. Concurrent development done in C, C++ and Java.
-
-plus a bunch of other stuff
