@@ -45,6 +45,10 @@ resume:
   name:           'Résumé'
   link:           http://hanloong.me/resume/
 
+exercism:
+  name:           "exercism.io"
+  link:           http://exercism.io/profiles/hanloong/f44221b854e54ac29d6d16ec74665a57
+
 sass:
   sass_dir:       _sass
   style:          :compressed
