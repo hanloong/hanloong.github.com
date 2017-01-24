@@ -4,11 +4,13 @@ title: Résumé
 ---
 
 ## Technologies I work with
-| **Languages** | Ruby, Javascript (es2015), Elixir, PHP, Scala, Python |
-| **Frameworks** | Rails, Sinatra, React, Flux, Ember, Backbone |
-| **Databases** | Postgres, MySQL, Redis, Elasticsearch, MongoDB |
-| **Testing** | Rspec, MiniTest, Jasmin, ExUnit |
-| **Tools** | Git, Github, Vim |
+Area | Technology (most fluent first)
+--- | ---
+**Languages** | Ruby, Javascript (es2015), Elixir, PHP, Scala, Python
+**Frameworks** | Rails, Sinatra, React, Flux, Ember, Backbone
+**Databases** | Postgres, MySQL, Redis, Elasticsearch, MongoDB
+**Testing** | Rspec, MiniTest, Jasmin, ExUnit
+**Tools** | Git, Github, Vim
 
 ## Other Interests
 - Remote work culture
