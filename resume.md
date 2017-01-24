@@ -3,7 +3,7 @@ layout: page
 title: Résumé
 ---
 
-## Technologies I work with
+## Technologies I work with #
 
 | Area       | Technology (most fluent first)                        |
 | ---------- | ----------------------------------------------------- |
@@ -13,16 +13,16 @@ title: Résumé
 | Testing    | Rspec, MiniTest, Jasmin, ExUnit                       |
 | Tools      | Git, Github, Vim                                      |
 
-## Other Interests
+## Other Interests #
 - Remote work culture
 - Travelling: maybe while working remote
 - Music: mostly listening but sometimes "picking" up the guitar
 - Photography: when I can be bothered to bring my SLR
 - Podcasts: both tech and non-tech
 
-## Work History
-### [Flatmates.com.au](https://flatmates.com.au) - (Sydney, Australia)
-##### Software Engineer (2016-Current)
+## Work History  #
+### [Flatmates.com.au](https://flatmates.com.au) - (Sydney, Australia) #
+##### Software Engineer (2016-Current) #
 
 Flatmates.com.au is Australia’s No.1 share accommodation website. Based in Sydney, Australia, Flatmates.com.au allows people to list their spare rooms, find accommodation or team up with others to start a share house.
 
@@ -39,7 +39,7 @@ I worked as a “full-stack” developer in a small agile team doing both mainte
  - Sass, neat and bourbon
  - Rspec
 
-#### Highlights
+#### Highlights #
 
  - Moved our infrastructure to a newer version of OpsWorks (AWS) that included a newer version of chef using community and custom recipies. During this move I was able to also configure continuous deployment from our CI system with zero downtime and switch the webserver from unicorn to puma.
  - Built a monitoring tool that posted into our slack channel when the sidekiq queue became too large.
@@ -48,8 +48,8 @@ I worked as a “full-stack” developer in a small agile team doing both mainte
  - Rebuilt our Search by Maps tool to be fully React using dynamic SVG’s for markers.
  - Swapped out the Google Places Autocomplete with our own Autocomplete built in React and Flux using Elastic Search’s suggest index for fast fuzzy matching.
 
-### [YourTutor.com.au](http://yourtutor.com.au) (Sydney, Australia)
-##### Software Engineer (2013-2016)
+### [YourTutor.com.au](http://yourtutor.com.au) (Sydney, Australia) #
+##### Software Engineer (2013-2016) #
 
 YourTutor provides an on-demand online tutoring tool connecting qualifieds tutors with primary school, high school and university students in Australia.
 
@@ -68,7 +68,7 @@ The engineering team comprises a team of full stack engineers (mostly remote), a
 - AWS - EC2
 - Coffeescript
 
-#### Highlights
+#### Highlights #
 - Re-designed our EventMachine servers to allowing it scale horizontally horizontally using Redis as a queueing backend.
 Rolled out A/B testing frameworks (split) to help us perform multi-variant testing mostly for features around acquisition (pricing, sign up flow etc).
 Upgraded our main Rails app from 3.2 to 4.x making sure we continue to keep up to date so as to avoid big ugly upgrades.
@@ -80,20 +80,20 @@ Upgraded our main Rails app from 3.2 to 4.x making sure we continue to keep up t
 - Improving our overall test coverage and my understanding of TDD and testing in general with things like Rspec 3 and verified mocks.
 - Helped organise our large mono-rail app into modules and introduced the use of service objects (even though “service” is a poor name)
 
-### [LawPath](http://lawpath.com.au) (Sydney, Australia)
-##### Software Engineer (2013-2013)
+### [LawPath](http://lawpath.com.au) (Sydney, Australia) #
+##### Software Engineer (2013-2013) #
 LawPath is a online lead generation tool that helped connect consumers and businesses seeking legal advice to relevant lawyers in their area.
 
 As a software engineer at LawPath I helped build and maintain there Rails application and helped implement testing, code review, continuous integration and continious deployment.
 
-### [Squiz](http://squiz.com.au) (Sydney, Austrlia)
-##### Production Software Engineer (2010-2013)
+### [Squiz](http://squiz.com.au) (Sydney, Austrlia) #
+##### Production Software Engineer (2010-2013) #
 Squiz is an Australian Supported Open Source Solutions company. They provide services around a suite of open source web applications including CMS, Search and Analytics. All products are built using open source technologies PHP, Postgres and MySQL.
 
 As a Production Software Engineer at Squiz I was manly responsible for the development and maintanance of a older PHP and MySQL CMS platform for a high value client that required a very customised system that served and consumed many API's over SOAP and REST
 
-## Formal Education
-### Royal Melbourne Institute of Technology (Melbourne, Australia)
-##### Bachelor in Computer Science (Applied Science)
-##### Completed 2006
+## Formal Education #
+### Royal Melbourne Institute of Technology (Melbourne, Australia) #
+##### Bachelor in Computer Science (Applied Science) #
+##### Completed 2006 #
 Degree Focus: Object-Oriented programming, Distributed Systems, Artificial Intelligence and System Administration. Concurrent development done in C, C++ and Java.
