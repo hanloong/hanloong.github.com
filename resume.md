@@ -48,7 +48,7 @@ I worked as a “full-stack” developer in a small agile team doing both mainte
  - Refactored a large section of our Search and Locations code for performance, reliability and testability.
  - Built an emailing system to help members advertising properties find relevant matches. Our email system is our largest source of revenue and this became the 3rd largest source.
  - Rebuilt our Search by Maps tool to be fully React using dynamic SVG’s for markers.
- - Swapped out the Google Places Autocomplete with our own Autocomplete built in React and Flux using Elastic Search’s suggest index for fast fuzzy matching.
+ - Swapped out the Google Places Autocomplete with our own Typeahead built in React and Flux using Elastic Search’s suggest index for fast fuzzy matching.
 
 ### [YourTutor](http://yourtutor.com.au) (Sydney, Australia)
 
