@@ -28,7 +28,7 @@ title: Résumé
 
 Flatmates.com.au is Australia’s No.1 share accommodation website. Based in Sydney, Australia, Flatmates.com.au allows people to list their spare rooms, find accommodation or team up with others to start a share house.
 
-I worked as a “full-stack” developer in a small agile team doing both maintenance and developing new features. The technologies used at flatmates are.
+I worked as a full stack developer in a small agile team doing both maintenance and developing new features. The technologies used at flatmates are.
 
  - Ruby on Rails
  - Ruby 2.4
@@ -43,12 +43,13 @@ I worked as a “full-stack” developer in a small agile team doing both mainte
 
 #### Highlights
 
- - Moved our infrastructure to a newer version of OpsWorks (AWS) that included a newer version of chef using community and custom recipies. During this move I was able to also configure continuous deployment from our CI system with zero downtime and switch the webserver from unicorn to puma.
- - Built a monitoring tool that posted into our slack channel when the sidekiq queue became too large.
- - Refactored a large section of our Search and Locations code for performance, reliability and testability.
+ - Rebuilt the front end of our messaging system from scratch using React, ReactRouter (v4) and Flux. Improving compatibility and performance on mobile devices while reducing CSS.
+ - Rebuilt our legacy search system to use small plain ruby objects with better test coverage.
  - Built an emailing system to help members advertising properties find relevant matches. Our email system is our largest source of revenue and this became the 3rd largest source.
- - Rebuilt our Search by Maps tool to be fully React using dynamic SVG’s for markers.
- - Swapped out the Google Places Autocomplete with our own Typeahead built in React and Flux using Elastic Search’s suggest index for fast fuzzy matching.
+ - Built the Search by Maps tool with React and dynamic SVG’s for markers.
+ - Swapped out the Google Places Autocomplete with our own Autocomplete built in React and Flux using Elasticsearch’s suggest index for fast fuzzy matching.
+ - Moved our hosting to a newer version of OpsWorks and Chef implementing continuous delivery for production and staging through our hosted CI system with zero downtime.
+ - Migrated our Elasticsearch from being third party hosted into AWS with signed requests for better security.
 
 ### [YourTutor](http://yourtutor.com.au) (Sydney, Australia)
 
