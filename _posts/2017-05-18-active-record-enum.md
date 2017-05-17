@@ -45,7 +45,11 @@ Finally, when your model needs a new state adding a new value to the enum is mor
 
 ```ruby
 class Post < ApplicationRecord
-  enum status { draft: "draft", reviewing: "reviewing", published: "published" }
+  enum status {
+    draft: "draft",
+    reviewing: "reviewing",
+    published: "published"
+  }
 end
 ```
 
