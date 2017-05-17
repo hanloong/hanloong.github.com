@@ -1,3 +1,6 @@
+# Gems
+gems: [jekyll-paginate]
+
 # Dependencies
 highlighter:      rouge
 

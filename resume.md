@@ -3,53 +3,43 @@ layout: page
 title: Résumé
 ---
 
-## Technologies I work with #
+## Tools and Technologies I use and love 😍
 
 | Area       | Technology (most fluent first)                        |
 | ---------- | ----------------------------------------------------- |
-| Languages  | Ruby, Javascript (es2015), Elixir, PHP, Scala, Python |
-| Frameworks | Rails, Sinatra, React, Flux, Ember, Backbone          |
+| Languages  | Ruby, Javascript (es2015), Elixir, PHP & Scala        |
+| Frameworks | Rails, Sinatra, React, Flux, Ember & Backbone         |
 | Databases  | Postgres, MySQL, Redis, Elasticsearch, MongoDB        |
 | Testing    | Rspec, MiniTest, Jasmin, ExUnit                       |
 | Tools      | Git, Github, Vim                                      |
 
-## Other Interests
-- Remote work culture
-- Travelling: maybe while working remote
-- Music: mostly listening but sometimes "picking" up the guitar
-- Photography: when I can be bothered to bring my SLR
-- Podcasts: both tech and non-tech
-
 ## Work History
 
-### [Flatmates.com.au](https://flatmates.com.au) - (Sydney, Australia)
-
-##### Software Engineer (2016-Current)
+### [Flatmates.com.au](https://flatmates.com.au) - (Sydney, Australia) - Software Engineer - (2016-Current)
 
 Flatmates.com.au is Australia’s No.1 share accommodation website. Based in Sydney, Australia, Flatmates.com.au allows people to list their spare rooms, find accommodation or team up with others to start a share house.
 
-I worked as a full stack developer in a small agile team doing both maintenance and developing new features. The technologies used at flatmates are.
+As a developer at Flatmates I work on all parts of the web app. From user interface to server management in AWS. We're a small team running a fairly busy site so being comfortable with all parts of our stack is critical. It's not uncommon for a work day to include refactoring SASS and updating chef scripts.
 
  - Ruby on Rails
- - Ruby 2.4
  - OpsWorks
  - Postgres, Elasticsearch, Redis
  - Sidekiq
  - ReactJS, Flux
  - ActiveMerchant
- - Google API’s (maps/places)
  - Sass, neat and bourbon
  - Rspec
 
 #### Highlights
 
  - Rebuilt the front end of our messaging system from scratch using React, ReactRouter (v4) and Flux. Improving compatibility and performance on mobile devices while reducing CSS.
- - Rebuilt our legacy search system to use small plain ruby objects with better test coverage.
+ - Ported our search system form giant controller methods to small testable service objects.
  - Built an emailing system to help members advertising properties find relevant matches. Our email system is our largest source of revenue and this became the 3rd largest source.
- - Built the Search by Maps tool with React and dynamic SVG’s for markers.
- - Swapped out the Google Places Autocomplete with our own Autocomplete built in React and Flux using Elasticsearch’s suggest index for fast fuzzy matching.
- - Moved our hosting to a newer version of OpsWorks and Chef implementing continuous delivery for production and staging through our hosted CI system with zero downtime.
+ - Built the [search by maps](https://flatmates.com.au/rooms/enmore-2042) feature using React and dynamic SVG’s for markers.
+ - Swapped out the Google Places Autocomplete with our own [Autocomplete built in React](https://flatmates.com.au/value-my-room/enmore-2042) and Flux using Elasticsearch as a backend.
+ - Implemented zero downtime deploys using ELB and Puma.
  - Migrated our Elasticsearch from being third party hosted into AWS with signed requests for better security.
+ - Helped move the team to an **Kanban** based workflow.
 
 ### [YourTutor](http://yourtutor.com.au) (Sydney, Australia)
 
@@ -59,18 +49,11 @@ YourTutor provides an on-demand online tutoring tool connecting qualifieds tutor
 
 The engineering team comprises a team of full stack engineers (mostly remote), a designer, product manager and team lead. The team followed an agile-ish methodology with two weeks spreets with people rotating into different roles each sprint to help share knowledge and keep things interesting. As the team had no dedicated Dev Ops or Sys Admin roles developers need to be involved in managing servers and deploying code.
 
-- Ruby On Rails
-- EventMachine (Reactive ruby library)
-- Socket.io
-- Redis
-- Postgres
-- Backbone
-- ReactJs
-- SVG (for our interactive whiteboard)
-- Ansible (for provisioning our servers AWS)
+- Ruby On Rails, EventMachine, Socket.io
+- EmberJs, ReactJs, Backbone, EaselJs, RaphaelJs, CoffeeScript
+- Postgres, Redis
+- Ansible
 - Sass
-- AWS - EC2
-- Coffeescript
 
 #### Highlights
 
