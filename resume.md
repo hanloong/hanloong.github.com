@@ -15,7 +15,8 @@ title: Résumé
 
 ## Work History
 
-### [Flatmates.com.au](https://flatmates.com.au) - (Sydney, Australia) - Software Engineer - (2016-Current)
+### [Flatmates.com.au](https://flatmates.com.au) - (Sydney, Australia)
+#### Software Engineer - (2016-Current)
 
 Flatmates.com.au is Australia’s No.1 share accommodation website. Based in Sydney, Australia, Flatmates.com.au allows people to list their spare rooms, find accommodation or team up with others to start a share house.
 
@@ -42,7 +43,6 @@ As a developer at Flatmates I work on all parts of the web app. From user interf
  - Helped move the team to an **Kanban** based workflow.
 
 ### [YourTutor](http://yourtutor.com.au) (Sydney, Australia)
-
 ##### Software Engineer (2013-2016)
 
 YourTutor provides an on-demand online tutoring tool connecting qualifieds tutors with primary school, high school and university students in Australia.
@@ -69,7 +69,6 @@ Upgraded our main Rails app from 3.2 to 4.x making sure we continue to keep up t
 - Helped organise our large mono-rail app into modules and introduced the use of service objects (even though “service” is a poor name)
 
 ### [LawPath](http://lawpath.com.au) (Sydney, Australia)
-
 ##### Software Engineer (2013-2013)
 
 LawPath is a online lead generation tool that helped connect consumers and businesses seeking legal advice to relevant lawyers in their area.
@@ -77,7 +76,6 @@ LawPath is a online lead generation tool that helped connect consumers and busin
 As a software engineer at LawPath I helped build and maintain there Rails application and helped implement testing, code review, continuous integration and continious deployment.
 
 ### [Squiz](http://squiz.com.au) (Sydney, Austrlia)
-
 ##### Production Software Engineer (2010-2013)
 
 Squiz is an Australian Supported Open Source Solutions company. They provide services around a suite of open source web applications including CMS, Search and Analytics. All products are built using open source technologies PHP, Postgres and MySQL.
@@ -85,11 +83,8 @@ Squiz is an Australian Supported Open Source Solutions company. They provide ser
 As a Production Software Engineer at Squiz I was manly responsible for the development and maintanance of a older PHP and MySQL CMS platform for a high value client that required a very customised system that served and consumed many API's over SOAP and REST
 
 ## Formal Education
-
 ### Royal Melbourne Institute of Technology (Melbourne, Australia)
-
 ##### Bachelor in Computer Science (Applied Science)
-
 ##### Completed 2006
 
 Degree Focus: Object-Oriented programming, Distributed Systems, Artificial Intelligence and System Administration. Concurrent development done in C, C++ and Java.
