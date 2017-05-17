@@ -88,3 +88,6 @@ As a Production Software Engineer at Squiz I was manly responsible for the devel
 ##### Completed 2006
 
 Degree Focus: Object-Oriented programming, Distributed Systems, Artificial Intelligence and System Administration. Concurrent development done in C, C++ and Java.
+
+---
+[PDF Version](https://www.dropbox.com/s/3ry3fv04mi3mjja/HanLoongLiauw2017.pdf?dl=0)
