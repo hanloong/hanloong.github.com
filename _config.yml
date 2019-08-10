@@ -24,12 +24,12 @@ paginate_path:    "/blog/page:num/"
 version:          1.0.0
 
 github:
-  name:           'Github'
+  name:           '@hanloong'
   repo:           https://github.com/hanloong/hanloong.github.com
   profile:        https://github.com/hanloong
 
 twitter:
-  name:           'Twitter'
+  name:           '@hanliauw'
   link:           https://twitter.com/hanliauw
 
 instagram:
@@ -41,7 +41,7 @@ stackoverflow:
   link:           http://stackoverflow.com/users/2663005/han-loong-liauw
 
 blog:
-  name:           'Blog Posts'
+  name:           'Blog'
   link:           http://hanloong.me/blog
 
 resume:
